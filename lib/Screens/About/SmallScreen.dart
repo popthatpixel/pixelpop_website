@@ -123,7 +123,7 @@ class AboutSmallScreen extends StatelessWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
-                'assets/desktop/about_page_desktop.png',
+                'assets/mobile/about_page_mobile.png',
               ),
               fit: BoxFit.cover),
         ),
