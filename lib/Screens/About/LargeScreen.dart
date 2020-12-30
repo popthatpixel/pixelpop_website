@@ -92,7 +92,8 @@ class AboutLargeScreen extends StatelessWidget {
               fit: BoxFit.cover),
         ),
         child: Padding(
-          padding: const EdgeInsets.only(left: 70.0, right: 70.0, top: 10.0),
+          padding: const EdgeInsets.only(
+              left: 70.0, right: 70.0, top: 10.0, bottom: 10),
           child: SingleChildScrollView(
               child: Container(
             decoration: BoxDecoration(
@@ -274,7 +275,7 @@ class AboutLargeScreen extends StatelessWidget {
                     elevation: 0,
                     padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
                     child: Text(
-                      'CONTACT US',
+                      'CONTACT',
                       style: GoogleFonts.montserrat(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
