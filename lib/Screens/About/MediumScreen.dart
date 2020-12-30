@@ -278,7 +278,7 @@ class AboutMediumScreen extends StatelessWidget {
                     elevation: 0,
                     padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
                     child: Text(
-                      'CONTACT US',
+                      'CONTACT',
                       style: GoogleFonts.montserrat(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
