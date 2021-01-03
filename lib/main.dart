@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pixelpop/Screens/About/About.dart';
+import 'package:pixelpop/Screens/CaseStudy/GcicCaseStudy.dart';
 import 'package:pixelpop/Screens/Clients/Clients.dart';
 import 'package:pixelpop/Screens/Contact/Contact.dart';
 import 'package:pixelpop/Screens/Home/Home.dart';
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
           '/work': (context) => Work(),
           '/about': (context) => About(),
           '/clients': (context) => Clients(),
-          '/contact': (context) => Contact()
+          '/contact': (context) => Contact(),
+          '/gcic_case_study': (context) => GcicCaseStudy()
         });
   }
 }
