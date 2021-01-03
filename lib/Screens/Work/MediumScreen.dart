@@ -158,17 +158,35 @@ class WorkMediumScreen extends StatelessWidget {
                                 fontSize: 18, color: Colors.white),
                           ),
                         ),
-                        Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: MaterialButton(
-                              padding: EdgeInsets.symmetric(
-                                  vertical: 20, horizontal: 40),
-                              child: Text('Coming Soon',
-                                  style: TextStyle(color: MyColors.orange)),
-                              color: Colors.white,
-                              onPressed: () {
-                                Navigator.pushNamed(context, '/work');
-                              }),
+                        Row(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: MaterialButton(
+                                  padding: EdgeInsets.symmetric(
+                                      vertical: 20, horizontal: 40),
+                                  child: Text('Case Study',
+                                      style: TextStyle(color: MyColors.orange)),
+                                  color: Colors.white,
+                                  onPressed: () {
+                                    Navigator.pushNamed(
+                                        context, '/gcic_case_study');
+                                  }),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: MaterialButton(
+                                  padding: EdgeInsets.symmetric(
+                                      vertical: 20, horizontal: 40),
+                                  child: Text('View Website',
+                                      style: TextStyle(color: MyColors.orange)),
+                                  color: Colors.white,
+                                  onPressed: () {
+                                    html.window.location.href =
+                                        "https://gograndconnection.com";
+                                  }),
+                            ),
+                          ],
                         ),
                       ],
                     ),
